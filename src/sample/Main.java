@@ -47,7 +47,7 @@ public class Main extends Application {
         Timeline t = new Timeline(new KeyFrame(Duration.millis(100), e -> run(gc)));
         t.setCycleCount(Timeline.INDEFINITE);
 
-        primaryStage.setTitle("Kulki !");
+        primaryStage.setTitle("Kulki!");
 
         primaryStage.setScene(new Scene(new StackPane(canvas)));
         primaryStage.show();
